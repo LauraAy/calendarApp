@@ -30,9 +30,28 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+     <row>
+      <div class="input-group inline">
+        <div class="input-group-prepend">
+          <span class="input-group-text" value="">9:00</span>
+        </div>
+        <textarea class="form-control" aria-label="With textarea" id="entry"></textarea>
+        <button type="button" class="btn btn-success " id="save">Save</button>
+      </div>
     </div>
+    </row>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    <script>
+    const currentDay = document.getElementById("currentDay")
+    const 
+    var now = moment();
+   
+    currentDay.innerHTML = `${now}`
+
+    
+    </script>
   </body>
 </html>
